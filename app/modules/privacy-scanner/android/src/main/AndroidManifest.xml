@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--
+    QUERY_ALL_PACKAGES lets the scanner see every installed app on Android 11+.
+    Without it, getInstalledApplications() returns only a filtered subset and
+    the scan would silently miss most apps.
+
+    This is a restricted permission under Google Play policy: a Play Store
+    release needs a declaration explaining the core use case (a privacy
+    scanner whose entire purpose is auditing installed apps). Sideloaded and
+    development builds are unaffected.
+  -->
+  <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+</manifest>

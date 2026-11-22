@@ -1,0 +1,1 @@
+{"description":"Privacy Scanner — audit installed mobile apps and flag risky permissions.","engines":{"node":">=20"},"name":"mobile-privacy-scanner","private":true,"scripts":{"test":"node --test \"tests/*.test.js\""},"version":"1.0.0"}

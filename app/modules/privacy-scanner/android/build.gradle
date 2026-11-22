@@ -1,0 +1,22 @@
+apply plugin: "com.android.library"
+apply plugin: "org.jetbrains.kotlin.android"
+apply plugin: "expo-module-gradle-plugin"
+
+group = "expo.modules.privacyscanner"
+version = "1.0.0"
+
+android {
+  namespace = "expo.modules.privacyscanner"
+  // compileSdk must match the host app's version (Expo SDK 58 targets API 36).
+  // If the build complains about a version mismatch, align this value with
+  // the app's android/app/build.gradle.
+  compileSdk = 36
+
+  defaultConfig {
+    minSdk = 24
+  }
+}
+
+dependencies {
+  implementation(project(":expo-modules-core"))
+}
