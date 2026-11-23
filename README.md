@@ -6,6 +6,8 @@
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Web-blue)
 ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
+**Live demo:** https://mob-privacy-scanner-v1.vercel.app — try it in your browser, no install needed (demo mode with sample data).
+
 A React Native (Expo) tool that audits the apps installed on a phone and flags
 risky permissions — in plain language, with an explainable risk score for every
 app and for the device overall.
